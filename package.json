@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-bypass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node -v",
+    "start": "node http.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zizifn/nodejs-bypass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zizifn/nodejs-bypass/issues"
+  },
+  "homepage": "https://github.com/zizifn/nodejs-bypass#readme",
+  "dependencies": {
+    "undici": "^5.12.0"
+  }
+}
